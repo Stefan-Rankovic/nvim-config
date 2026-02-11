@@ -1,0 +1,6 @@
+#!/bin/bash
+find ./lua/ init.lua -type f -exec bash -c '
+    for f; do
+        [[ $(head -n 1 "$f") != "-- SPDX-License-Identifier: GPL-3.0-only" ]] && echo "$f"
+    done
+' bash {} +
