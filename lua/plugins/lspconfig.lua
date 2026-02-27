@@ -26,6 +26,7 @@ return {
 		vim.lsp.enable("pyright")
 		vim.lsp.enable("lua_ls")
 		vim.lsp.enable("rust_analyzer")
+		-- There's also hyprlang, which is in lua/hyprlang_lsp.lua
 
 		vim.lsp.set_log_level("ERROR")
 	end,
