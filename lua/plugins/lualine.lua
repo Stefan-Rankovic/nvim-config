@@ -9,7 +9,11 @@ return {
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	config = function()
 		require("lualine").setup({
-			options = { theme = "palenight" }, -- nightfly is an alternative, but it's gray INSERT color is ugly
+			options = {
+				-- originally palenight
+				-- nightfly is an alternative, but it's gray INSERT color is ugly
+				theme = "pywal16-nvim",
+			},
 		})
 	end,
 }
