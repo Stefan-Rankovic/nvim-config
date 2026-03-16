@@ -9,6 +9,7 @@ vim.opt.shiftwidth = 4 -- insert 4 spaces on a tab
 -- vim.opt.clipboard = "unnamedplus" -- use system clipboard
 vim.opt.number = true -- show absolute line number
 vim.opt.relativenumber = true -- show relative line number
+vim.opt.termguicolors = true -- without this, nvim complains for some reason
 
 -- Searching
 vim.opt.incsearch = true -- search as characters are entered
