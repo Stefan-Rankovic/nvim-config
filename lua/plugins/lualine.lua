@@ -3,6 +3,7 @@
 -- Adds a really beautiful and useful line at the bottom of the screen.
 --
 -- https://github.com/nvim-lualine/lualine.nvim
+
 return {
 	"nvim-lualine/lualine.nvim",
 	event = "VeryLazy",

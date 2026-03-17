@@ -3,6 +3,7 @@
 -- Tabs at the top.
 --
 -- https://github.com/romgrk/barbar.nvim
+
 return {
 	{
 		"romgrk/barbar.nvim",

@@ -3,6 +3,7 @@
 -- Installs the framework for installing LSP servers (the things that can tell function1() is a function and not an integer and that doing "let a: u32 = 0;" defines an u32 instead of a &str.)
 --
 -- https://github.com/neovim/nvim-lspconfig
+
 return {
 	"neovim/nvim-lspconfig",
 	config = function()

@@ -6,6 +6,7 @@
 -- Example:
 --
 -- https://github.com/aidancz/whitespace.nvim
+
 return {
 	"aidancz/whitespace.nvim",
 	lazy = false,

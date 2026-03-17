@@ -3,6 +3,7 @@
 -- Provides tooltips as commands are being typed (such as in normal mode).
 --
 -- https://github.com/folke/which-key.nvim
+
 return {
 	"folke/which-key.nvim",
 	event = "VeryLazy",

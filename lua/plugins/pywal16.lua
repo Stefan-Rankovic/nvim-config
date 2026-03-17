@@ -4,6 +4,7 @@
 -- folke/tokyonight.nvim was used previously.
 --
 -- https://github.com/uZer/pywal16.nvim
+
 return {
 	"uZer/pywal16.nvim",
 	config = function()

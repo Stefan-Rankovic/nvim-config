@@ -4,6 +4,7 @@
 -- Example: https://example.com
 --
 -- https://github.com/rubiin/highlighturl.nvim
+
 return {
 	"rubiin/highlighturl.nvim",
 	event = "VeryLazy",

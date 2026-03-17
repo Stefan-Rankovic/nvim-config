@@ -3,6 +3,7 @@
 -- Shows the version number of packages in Cargo.toml. And other generally useful things that make editing Cargo.toml easier.
 --
 -- https://github.com/Saecki/crates.nvim
+
 return {
 	"saecki/crates.nvim",
 	event = { "BufRead Cargo.toml" },
