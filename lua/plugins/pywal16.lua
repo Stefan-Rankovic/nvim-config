@@ -9,5 +9,6 @@ return {
 	"uZer/pywal16.nvim",
 	config = function()
 		vim.cmd.colorscheme("pywal16")
+		vim.api.nvim_set_hl(0, "PmenuSel", { fg = vim.g.background, bg = vim.g.foreground })
 	end,
 }
